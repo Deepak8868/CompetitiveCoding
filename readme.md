@@ -7,5 +7,6 @@
             - ``` input.txt ``` 
             - ``` output.txt ``` 
             - ```code.cpp```
+            - And then open VSCode in this folder by running ``` code . ``` which you can change in the ```createTemp.sh``` file
         - The ```code.cpp``` contains the template which I wrote that you can edit at ``` ~/CodingSetup/template.cpp```
         - The code after running will take input form ```input.txt``` and write the ouput in ```output.txt```.
