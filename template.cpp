@@ -56,7 +56,7 @@ int main()
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);//for faster IO
 
-	inputOutputFile();    
+	inputOutputFile();
     int t=1; cin>>t;
     while(t--)
     {
@@ -66,7 +66,7 @@ int main()
 }
 
 
-/*<==> FnctionImplementations<=======================================================*/
+/*<==> FunctionImplementations <=======================================================*/
 
 void fastscan(int &number)
 {//Function for even faster IO (for ICPC, CodeJam etc)
