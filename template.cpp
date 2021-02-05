@@ -20,7 +20,7 @@ using namespace std;
 #define ps(x,y)         fixed<<setprecision(y)<<x
 #define mk(arr,n,type)  type *arr=new type[n];
 #define w(x)            int x; cin>>x; while(x--)
-mt19937                 rng(chrono::steady_clock::now().time_since_epoch().count());
+mt19937                 rng(chrono::steady_clock::now().time_since_epoch().count());//this is the best random shuffler
 typedef tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_update> pbds;
 /*#######################################################*/
 
@@ -28,7 +28,7 @@ void inputOuput();
 
 void solve()
 {
-    
+
 }
 
 
