@@ -1,7 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-/*==> Macros <==*/
+
+/*=> Macros <===================================================================>*/
+
 #define 	fo(i,n) for(i=0; i<n; i++)
 #define 	Fo(i,n) for(i=k; k<n?i<n:i>n:k<n?i+=1:i-=1) //itrts i->k && k->i
 #define 	ll long long
@@ -19,6 +21,7 @@ using namespace std;
 #define 	deb2(x, y) cout << #x << "=" << x << "," << #y << "=" << y << endl
 #define 	clr(x) memset(s, 0, sixeof(x)) //used to clear
 #define 	PI 3.1415926535897932384626
+
 /*<=================================================================================>*/
 typedef 	pair<int, int> pii;
 typedef 	pair<ll, ll> pl;
@@ -62,6 +65,9 @@ int main()
     return 0;
 }
 
+
+/*<==> FnctionImplementations<=======================================================*/
+
 void fastscan(int &number)
 {//Function for even faster IO (for ICPC, CodeJam etc)
 
@@ -92,6 +98,7 @@ void fastscan(int &number)
     if (negative)
         number *= -1;
 }
+
 void inputOutputFile()
 {
 #ifndef ONLINE_JUDGE
