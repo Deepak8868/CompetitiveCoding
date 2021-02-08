@@ -1,6 +1,6 @@
 - ## Follow through the steps:
-    - First clone the repo by pasting ``` git clone https://github.com/rosekamallove/CodingSetup ~ ```
-    - Then paste this command in the terminal ``` alias letscode="sh ~/CodingSetup/createTemp.sh ```
+    - First clone the repo by pasting ``` git clone https://github.com/rosekamallove/competitiveCoding ~ ```
+    - Then paste this command in the terminal ``` alias letscode="sh ~/competitiveCoding/createTemp.sh ```
     - Now all you have to do to start coding is type in ``` letscode $name ``` .
         - It will create a folder of the name you provided.
         - And in that folder it will create three files, 
