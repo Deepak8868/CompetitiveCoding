@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
 /*=> Macros <===================================================================>*/
 
 #define 	fo(i,n) for(i=0; i<n; i++)
